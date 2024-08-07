@@ -4,7 +4,7 @@ export default function Loader() {
   return (
     <div className="loader">
       <Image
-        src="/assets/icons/loader.png"
+        src="/assets/icons/loader.svg"
         alt="loader"
         width={32}
         height={32}

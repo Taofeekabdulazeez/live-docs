@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Header({ children, className }: HeaderProps) {
   return (
     <div className="header">
-      <Link href="/" className={cn("header", className)}>
+      <Link href="/" className={cn("", className)}>
         <Image
           src="/assets/icons/logo.svg"
           alt="Logo with name"
